@@ -5,4 +5,4 @@ It ian extesion from [themattrix/docker-tox](https://github.com/themattrix/docke
 
 Usage
 -----
-    docker run --rm -it -v ${PWD}:/app luiscoms/tox
+    docker run --rm -it -v ${PWD}:/app ateliedocodigo/tox
