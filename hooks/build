@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-#docker build --build-arg=SKIP_TOX=1 -t $IMAGE_NAME .
 echo "=========================="
 echo "Build hook"
 echo "=========================="
+docker build --build-arg SKIP_TOX=1 -t $IMAGE_NAME .
